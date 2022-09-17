@@ -113,3 +113,140 @@ color: var(--main-color);
   clip-path: inset(50%);
   margin: -1px;
 }
+
+.merit-list {
+  font-family: var(--main-font);
+}
+
+.merit-item {
+}
+
+.merit-title {
+  font-weight: 700;
+font-size: 14px;
+line-height: calc(16 / 14);
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: var(--main-title-color);
+}
+
+.merit-par {
+  font-size: 14px;
+line-height: calc(24 /14);
+letter-spacing: 0.03em;
+color: #757575;
+}
+
+/* ABOUT */
+
+.about {
+  font-family: var(--main-font);
+}
+.about-title {
+  font-weight: 700;
+font-size: 36px;
+line-height: calc(42 / 36);
+text-align: center;
+letter-spacing: 0.03em;
+color: var(--main-title-color);
+}
+.about-list {
+}
+
+.about-item {
+}
+
+/* TEAM */
+
+.team {
+  font-family: var(--main-font);
+}
+
+.team-title {
+  font-weight: 700;
+font-size: 36px;
+line-height: calc(42 / 36);
+text-align: center;
+letter-spacing: 0.03em;
+color: var(--main-title-color);
+}
+.team-list {
+}
+
+.team-item {
+}
+.team-name {
+  font-weight: 500;
+font-size: 16px;
+line-height: calc(19 /16);
+text-align: center;
+letter-spacing: 0.03em;
+color: var(--main-title-color);
+}
+.team-prof {
+  font-size: 16px;
+line-height: calc(19 /16);
+text-align: center;
+letter-spacing: 0.03em;
+color: #757575;
+}
+
+
+
+
+/* FOOTER */
+
+.footer {
+  background-color: #2F303A;
+}
+.footer-logo {
+font-family: var(--main-font);
+font-weight: 700;
+font-size: 26px;
+line-height: calc(31 / 26);
+letter-spacing: 0.03em;
+color: var(--main-color)
+}
+.footer-text {
+font-family: var(--main-font);
+font-weight: 700;
+font-size: 26px;
+line-height: calc(31 / 26);
+letter-spacing: 0.03em;
+color: var(--accent-color);
+}
+.footer-address {
+ font-family: var(--second-font);
+ font-style: normal
+}
+.footer-list {
+
+}
+
+.footer-item {
+}
+
+.footer-adr:hover, .footer-adr:focus, .footer-mail:hover, .footer-tel:hover, .footer-mail:focus, .footer-tel:focus {
+  color: var(--accent-color);
+}
+
+.footer-adr {
+font-weight: 400;
+font-size: 14px;
+line-height: calc(24 / 14);
+letter-spacing: 0.03em;
+color: var(--main-color);
+}
+.footer-mail {
+font-size: 14px;
+line-height: calc(24 / 14);
+letter-spacing: 0.03em;
+color: rgba(255, 255, 255, 0.6);
+}
+.footer-tel {
+font-size: 14px;
+line-height: calc(24 / 14);
+letter-spacing: 0.03em;
+color: rgba(255, 255, 255, 0.6);
+}
+
