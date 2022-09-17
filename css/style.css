@@ -1,4 +1,115 @@
+:root {
+  --main-font: "Raleway", sans-serif;
+  --second-font: "Roboto", sans-serif;
+  --main-color: #ffffff;
+  --main-title-color: #212121;
+  --accent-color: #2196F3;
+
+}
+
 body {
-  font-family: "Raleway", sans-serif;
-  font-family: "Roboto", sans-serif;
+  font-family: var(--main-font)
+  font-family: var(--second-font)
+}
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+}
+
+/* HEADER */
+.header {
+  font-family: var(--second-font)
+
+}
+.header-logo {
+  font-weight: 700;
+font-size: 26px;
+line-height: calc(31 / 26);
+letter-spacing: 0.03em;
+color: #000000;
+}
+
+.logo-text {
+font-weight: 700;
+font-size: 26px;
+line-height: calc(31 / 26);
+letter-spacing: 0.03em;
+color: var(--accent-color);
+}
+
+.header-list {
+}
+
+.haeder-item {
+  font-weight: 500;
+font-size: 14px;
+line-height: calc(16 / 14);
+letter-spacing: 0.02em;
+}
+.haeder-link:hover, .haeder-link:focus, .haeder-mail:hover, .haeder-tel:hover, .haeder-mail:focus, .haeder-tel:focus {
+  color: var(--accent-color);
+}
+.haeder-list {
+}
+.haeder-mail {
+  font-weight: 500;
+font-size: 14px;
+line-height: calc(16 /14);
+letter-spacing: 0.02em;
+color: #757575;
+}
+.haeder-tel {
+    font-weight: 500;
+font-size: 14px;
+line-height: calc(16 /14);
+letter-spacing: 0.02em;
+color: #757575;
+}
+
+/* HERO */
+.hero {
+  background-color: #2F303A;
+  font-family: var(--main-font);
+
+}
+.hero-title {
+font-weight: 900;
+font-size: 44px;
+line-height: calc(60 / 44);
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+color: var(--main-color);
+}
+
+.hero-btn {
+  font-weight: 700;
+font-size: 16px;
+line-height: calc(30 /16);
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.06em;
+color: var(--main-color);
+}
+
+.btn:hover, .btn.focus {
+
+}
+
+/* ПЕРЕВАГИ */
+
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
 }
