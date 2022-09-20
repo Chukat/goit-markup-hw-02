@@ -8,9 +8,11 @@
 }
 
 body {
-  font-family: var(--main-font);
+  font-family: var(--second-font);
+  font-size: 14px;
   letter-spacing: 0.03em;
   color: var(--main-title-color);
+  background-color: var(--main-color);
 }
 
 .list {
@@ -22,8 +24,6 @@ body {
 
 /* HEADER */
 .header {
-  font-family: var(--second-font);
-  font-size: 14px;
 }
 .header-logo {
   font-family: var(--main-font);
@@ -34,6 +34,7 @@ body {
 }
 
 .logo-text {
+  font-family: var(--main-font);
   font-weight: 700;
   font-size: 26px;
   line-height: calc(31 / 26);
@@ -41,10 +42,11 @@ body {
 }
 
 .haeder-link.current {
-  color: var(--main-title-color);
+  color: var(--accent-color);
 }
 
-.header-link {
+.header-link,
+.haeder-contact {
   font-weight: 500;
   line-height: calc(16 / 14);
   letter-spacing: 0.02em;
@@ -62,9 +64,6 @@ body {
 .haeder-list {
 }
 .haeder-contact {
-  font-weight: 500;
-  line-height: calc(16 / 14);
-  letter-spacing: 0.02em;
   color: var(--second-color);
 }
 
@@ -127,7 +126,6 @@ body {
 }
 
 .work-text {
-  font-size: 14px;
   line-height: calc(24 / 14);
   color: var(--second-color);
 }
@@ -152,8 +150,6 @@ body {
 .team {
 }
 
-.section-title {
-}
 .team-list {
 }
 
@@ -263,11 +259,10 @@ body {
 }
 
 .footer-adr {
-  font-weight: 400;
   line-height: calc(24 / 14);
   color: var(--main-color);
 }
-.footer-contact {
+.footer-contact link {
   line-height: calc(24 / 14);
   color: rgba(255, 255, 255, 0.6);
 }
