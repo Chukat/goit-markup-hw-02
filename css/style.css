@@ -45,7 +45,7 @@ body {
   color: var(--accent-color);
 }
 
-.header-link,
+.haeder-link,
 .haeder-contact {
   font-weight: 500;
   line-height: calc(16 / 14);
@@ -262,7 +262,7 @@ body {
   line-height: calc(24 / 14);
   color: var(--main-color);
 }
-.footer-contact link {
+.footer-contact {
   line-height: calc(24 / 14);
   color: rgba(255, 255, 255, 0.6);
 }
